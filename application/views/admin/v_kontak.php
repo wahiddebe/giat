@@ -86,6 +86,10 @@
                       <?php endforeach; ?>
                     </tbody>
                   </table>
+                  <h6>
+                    * contoh penulisan no telp/wa : 83866290457 (tanpa angka 0)
+                    <small></small>
+                  </h6>
                 </div>
                 <!-- /.box-body -->
               </div>

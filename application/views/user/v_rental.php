@@ -26,3 +26,8 @@
     </section>
 
 </main>
+<a href="https://api.whatsapp.com/send?phone=62<?= $no_hp_rental ?>" class="d-flex justify-content-center align-items-center" id="wp" target="_blank">
+    <i class="fa fa-whatsapp d-flex justify-content-center align-items-center">
+    </i>
+</a>
+</body>

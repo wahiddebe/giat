@@ -147,3 +147,47 @@
         </div>
     </section>
 </main>
+</body>
+<style>
+    /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+    .icon-bar {
+        position: fixed;
+        top: 90%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    /* Style the icon bar links */
+    .icon-bar a {
+        display: block;
+        text-align: left;
+        padding: 8px;
+        transition: all 0.3s ease;
+        border-radius: 50px;
+        color: white;
+        font-size: 20px;
+    }
+
+    /* Style the social media icons with color, if you want */
+    .icon-bar a:hover {
+        background-color: #000;
+    }
+
+    .facebook {
+        background: green;
+        color: white;
+    }
+
+    .twitter {
+        background: green;
+        color: white;
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+    <a href="https://api.whatsapp.com/send?phone=62<?= $no_hp ?>" class="facebook mb-1"><i class="fa fa-whatsapp"> Jasa</i></a>
+    <a href="https://api.whatsapp.com/send?phone=62<?= $no_hp_rental ?>" class="twitter"><i class="fa fa-whatsapp"> Rental</i></a>
+</div>

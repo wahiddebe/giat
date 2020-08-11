@@ -1,4 +1,3 @@
-<a href="https://api.whatsapp.com/send?phone=62<?= $no_hp ?>" class="d-flex justify-content-center align-items-center" id="wp" target="_blank"><i class="fa fa-whatsapp d-flex justify-content-center align-items-center"></i></a>
 <footer class="page-footer dark">
     <div class="container">
         <div class="row">
@@ -12,13 +11,25 @@
                 <div class="row">
                     <div class="col-sm-2"><i class="text-center fa fa-whatsapp" style="font-size: 20px;"></i></div>
                     <div class="col-sm-8" style="padding-right: 0px;">
-                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp ?></p>
+                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp ?> (Jasa)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"><i class="text-center fa fa-whatsapp" style="font-size: 20px;"></i></div>
+                    <div class="col-sm-8" style="padding-right: 0px;">
+                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp_rental ?> (Rental)</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-2"><i class="text-center fa fa-phone" style="font-size: 20px;"></i></div>
                     <div class="col-sm-8" style="padding-right: 0px;">
-                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp ?></p>
+                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp ?> (Jasa)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"><i class="text-center fa fa-phone" style="font-size: 20px;"></i></div>
+                    <div class="col-sm-8" style="padding-right: 0px;">
+                        <p class="text-center" style="font-size: 14px;">0<?= $no_hp_rental ?> (Rental)</p>
                     </div>
                 </div>
                 <div class="row">
@@ -31,9 +42,8 @@
         </div>
     </div>
     <div class="footer-copyright" style="background-color: rgb(17,17,17);">
-        <p style="color: rgb(181,139,34);">© 2020 Copyright</p>
+        <p style="color: rgb(181,139,34);">© 2020 <a style="color: rgb(181,139,34);" href="http://aksantara.digital/">Aksantara Digital</a></p>
     </div>
 </footer>
-</body>
 
 </html>

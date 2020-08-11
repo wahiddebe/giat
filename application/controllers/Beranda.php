@@ -25,6 +25,10 @@ class Beranda extends CI_Controller
     foreach ($hp->result_array() as $hp) {
       $no_hp = $hp['isi'];
     }
+    $hp_rental = $this->m_kontak->get_kontak_by_kode(3);
+    foreach ($hp_rental->result_array() as $hp_rental) {
+      $no_hp_rental = $hp_rental['isi'];
+    }
     $alamat = $this->m_kontak->get_kontak_by_kode(2);
     foreach ($alamat->result_array() as $alamat) {
       $alamat = $alamat['isi'];
@@ -52,6 +56,7 @@ class Beranda extends CI_Controller
       'rental' => $this->m_rental->get_rental_home(),
       'testi' => $this->m_testi->get_testi(),
       'no_hp' => $no_hp,
+      'no_hp_rental' => $no_hp_rental,
       'alamat' => $alamat,
       'jasa_judul' => $jasa_judul,
       'jasa_isi' => $jasa_isi,
