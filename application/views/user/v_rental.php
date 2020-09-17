@@ -24,6 +24,14 @@
             </div>
         </div>
     </section>
+    <section class="clean-block about-us">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-info"><?= $catatan_judul ?></h2>
+                <p><?= $catatan_isi ?></p>
+            </div>
+        </div>
+    </section>
 
 </main>
 <a href="https://api.whatsapp.com/send?phone=62<?= $no_hp_rental ?>" class="d-flex justify-content-center align-items-center" id="wp" target="_blank">

@@ -19,6 +19,11 @@ class M_home extends CI_Model
     $hsl = $this->db->query("SELECT * FROM tbl_home WHERE id=3");
     return $hsl;
   }
+  function get_home_catatan()
+  {
+    $hsl = $this->db->query("SELECT * FROM tbl_home WHERE id=4");
+    return $hsl;
+  }
   function get_home_by_kode($kode)
   {
     $hsl = $this->db->query("SELECT * FROM tbl_home WHERE id='$kode'");

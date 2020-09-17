@@ -32,6 +32,11 @@ class Rental extends CI_Controller
       $rental_judul = $rental['judul'];
       $rental_isi = $rental['isi'];
     }
+    $catatan = $this->m_home->get_home_catatan();
+    foreach ($catatan->result_array() as $catatan) {
+      $catatan_judul = $catatan['judul'];
+      $catatan_isi = $catatan['isi'];
+    }
     $data = array(
       'title' => 'Rental',
       'active1' => '',
@@ -42,6 +47,8 @@ class Rental extends CI_Controller
       'alamat' => $alamat,
       'rental_judul' => $rental_judul,
       'rental_isi' => $rental_isi,
+      'catatan_judul' => $catatan_judul,
+      'catatan_isi' => $catatan_isi,
       'rental' => $this->m_rental->get_rental(),
       'isi' => 'user/v_rental'
     );

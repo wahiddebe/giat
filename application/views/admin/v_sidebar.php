@@ -68,6 +68,7 @@
               <li><a href="<?php echo base_url() . 'admin/k_rental' ?>"><i class="fa fa-list"></i> Rental</a></li>
               <li><a href="<?php echo base_url() . 'admin/k_jasa' ?>"><i class="fa fa-list"></i> Jasa</a></li>
               <li><a href="<?php echo base_url() . 'admin/k_testi' ?>"><i class="fa fa-list"></i> Testimoni</a></li>
+              <li><a href="<?php echo base_url() . 'admin/k_catatan' ?>"><i class="fa fa-list"></i> Catatan</a></li>
             </ul>
           </li>
           <li>
